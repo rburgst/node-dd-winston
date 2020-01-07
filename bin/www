@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-// const tracer = require('dd-trace').init({
-//   logInjection: true
-// });
+const tracer = require('dd-trace').init({
+  logInjection: true
+});
 
 const logger = require("../logger");
 /**
